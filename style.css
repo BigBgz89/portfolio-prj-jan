@@ -1,10 +1,10 @@
 body {
-  background-color: #343a40;
-  color: #fff;
+  background-color: #f7f4e4;
+  color: rgb(0, 0, 0);
 }
 
 .navbar {
-  background-color: #1e2123;
+  background-color: #1e21237c;
 }
 .navbar-nav {
   margin-left: auto;
@@ -70,12 +70,28 @@ h1 {
 header {
   margin-top: 5rem;
 }
-
-.img-right {
-  max-width: 525px;
-  width: 100%;
+.carousel {
+  max-width: 650px;
   float: right;
-  border-radius: 500px;
+  padding: 15px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;
+}
+
+.carousel-indicators li {
+  background-color: #333;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
 }
 
 .card-group {
@@ -84,7 +100,7 @@ header {
 }
 
 .card {
-  background-color: #495057;
+  background-color: #7b8692;
   color: #fff;
   border: none;
   margin-bottom: 15px;
